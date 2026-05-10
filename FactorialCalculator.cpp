@@ -18,7 +18,7 @@ int main()
 
 	for (int i = 1; i <= n; i++)
 	{
-		result = result * i;
+		result = result * i;     //result *= i
 	}
 
 	cout << n << " ! = " << result << endl;
